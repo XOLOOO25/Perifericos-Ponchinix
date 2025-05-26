@@ -1,0 +1,49 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "calibri light";
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: white;
+    padding: 20px 30px;
+}
+
+main.foto{
+    width: 25px;
+    height: 50px;
+    background-color: teal;
+    border-radius: 90%;
+    margin: -90px 0 30px 0;
+    border: 6px solid  #fc5400;
+
+}
+
+main .foto img{
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+
+footer{
+    background: teal;
+}
